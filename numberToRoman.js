@@ -16,13 +16,17 @@ function convertToRoman(num) {
     }
     
     return roman;
-   }
+}
    
-   console.log(convertToRoman(36));
-   console.log(convertToRoman(360));
-   console.log(convertToRoman(349));
-   console.log(convertToRoman(1443));
-   console.log(convertToRoman(9452));
+console.log(convertToRoman(36));
+console.log(convertToRoman(360));
+console.log(convertToRoman(349));
+console.log(convertToRoman(1443));
+console.log(convertToRoman(9452));
 
-
-   // 60 -> LX
+//Outputs:
+//XXXVI
+//CCCLX
+//CCCXLIX
+//MCDXLIII
+//MMMMMMMMMCDLII
